@@ -144,3 +144,21 @@ footer {
     padding-top: 1rem;
     border-top: 1px solid #ccc;
 }
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: black;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #dbcebe;
+}
